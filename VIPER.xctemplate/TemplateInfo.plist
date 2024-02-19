@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>NewModule</string>
+	<key>Description</key>
+	<string>An VIPER architecture files.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of module</string>
+			<key>Identifier</key>
+			<string>moduleName</string>
+			<key>Name</key>
+			<string>Module Name: </string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>ModuleType</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Module Type:</string>
+			<key>Description</key>
+			<string>The type of modules to create</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>ViewController</string>
+			<key>Values</key>
+			<array>
+				<string>VIPER</string>
+				<string>VIPER+TableView</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName:identifier___ViewController</string>
+			<key>Identifier</key>
+			<string>viewControllerName</string>
+			<key>Name</key>
+			<string>View Controller Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName:identifier___Interactor</string>
+			<key>Identifier</key>
+			<string>interactorName</string>
+			<key>Name</key>
+			<string>Interactor Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName:identifier___Presenter</string>
+			<key>Identifier</key>
+			<string>presenterName</string>
+			<key>Name</key>
+			<string>Presenter Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName:identifier___Entity</string>
+			<key>Identifier</key>
+			<string>entityName</string>
+			<key>Name</key>
+			<string>Entity Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName:identifier___Router</string>
+			<key>Identifier</key>
+			<string>routerName</string>
+			<key>Name</key>
+			<string>Router Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName:identifier___Interfaces</string>
+			<key>Identifier</key>
+			<string>interfacesName</string>
+			<key>Name</key>
+			<string>Interfaces Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>0</string>
+	<key>Summary</key>
+	<string>An VIPER architecture files.</string>
+</dict>
+</plist>
